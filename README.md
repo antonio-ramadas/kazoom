@@ -2,6 +2,8 @@
 
 Automatically close your [Zoom](https://zoom.us/) tabs after successfully triggering the app.
 
+![Zoom example](./zoom-example.png)
+
 ## In detail
 
 This is a Firefox Add-on which closes tabs open on Zoom's website after 10 seconds. This should give you enough time to open the meeting on the app. If you go to meetings on your browser, then this won't be for you (unless you want to stick around for just 10 seconds :joy:).
