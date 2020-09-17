@@ -1,0 +1,9 @@
+#kazoom-banner {
+    border-color: lightblue;
+    border-width: 10px;
+    border-style: solid;
+}
+
+#kazoom-banner > h1, #kazoom-banner > h2 {
+    text-align: center;
+}

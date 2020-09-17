@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Kazoom",
+  "description": "Automatically close your Zoom tabs after successfully triggering the app",
+  "version": "0.0.1",
+  "author": "António Ramadas",
+  "homepage_url": "https://github.com/antonio-ramadas",
+  "icons": {
+    "48": "icons/icon.png",
+    "64": "icons/icon.png",
+    "96": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+  "background": {
+    "scripts": [
+      "background_script.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.zoom.us/*"
+      ],
+      "js": [
+        "content_script.js"
+      ],
+      "css": [
+        "content_script.css"
+      ]
+    }
+  ]
+}
