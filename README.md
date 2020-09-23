@@ -40,3 +40,7 @@ What I've found is only available on Chrome (I have not tested any of them). Her
 
 - https://github.com/seanstar12/zoom-close
 - https://github.com/thesephist/clozoom
+
+## Acknowledgements
+
+Logo based on the [design by upklyak / Freepik](https://www.freepik.com/vectors/water)

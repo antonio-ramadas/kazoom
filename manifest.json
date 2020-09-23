@@ -6,10 +6,10 @@
   "author": "António Ramadas",
   "homepage_url": "https://github.com/antonio-ramadas",
   "icons": {
-    "48": "icons/icon.png",
-    "64": "icons/icon.png",
-    "96": "icons/icon.png",
-    "128": "icons/icon.png"
+    "48": "icons/kazoom@1x.png",
+    "72": "icons/kazoom@1,5x.png",
+    "96": "icons/kazoom@2x.png",
+    "144": "icons/kazoom@3x.png"
   },
   "background": {
     "scripts": [
