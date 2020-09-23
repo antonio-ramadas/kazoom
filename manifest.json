@@ -29,5 +29,8 @@
         "content_script.css"
       ]
     }
+  ],
+  "permissions": [
+    "tabs"
   ]
 }

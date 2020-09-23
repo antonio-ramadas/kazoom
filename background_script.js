@@ -2,14 +2,19 @@ const tabOpenTimeoutInSeconds = 10;
 let tabs = [];
 
 function connected(port) {
+  const url = new URL(port.sender.tab.url);
+  if (!url.pathname.match(/^\/j\/.+/)) {
+    return;
+  }
+
   tabs.push({
-      time: new Date(),
-      port
-    });
+    time: new Date(),
+    port
+  });
 
   // Handle someone closing the tab before we do
   port.onDisconnect.addListener(p => {
-      tabs = tabs.filter(tab => tab.port.sender.tab.id !== p.sender.tab.id);
+    tabs = tabs.filter(tab => tab.port.sender.tab.id !== p.sender.tab.id);
   });
 
   // Send initial message
