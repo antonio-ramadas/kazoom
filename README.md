@@ -1,4 +1,4 @@
-# Kazoom
+# Kazoom <a href="https://addons.mozilla.org/en-US/firefox/addon/kazoom/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" height="40" ></a>
 
 Automatically close your [Zoom](https://zoom.us/) tabs after successfully triggering the app.
 
