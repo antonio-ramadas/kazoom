@@ -17,6 +17,8 @@ let firstMessage = true;
 const port = browser.runtime.connect();
 
 port.onMessage.addListener(({time}) => {
+  time = parseInt(time);
+
   if (firstMessage) {
     document.getElementsByTagName('body')[0].prepend(div);
     firstMessage = false;
