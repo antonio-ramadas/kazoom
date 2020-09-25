@@ -3,7 +3,7 @@ let tabs = [];
 
 function connected(port) {
   const url = new URL(port.sender.tab.url);
-  if (!url.pathname.match(/^\/j\/.+/)) {
+  if (!url.pathname.match(/^\/(j|s)\/.+/)) {
     return;
   }
 
